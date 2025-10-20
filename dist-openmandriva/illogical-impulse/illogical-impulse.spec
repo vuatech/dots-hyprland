@@ -1,3 +1,5 @@
+%global debug_package %{nil}
+
 Name:		illogical-impulse
 Version:	0.0.0
 Source0:    illogical-impulse.spec
@@ -112,6 +114,7 @@ Requires:	nm-connection-editor
 Requires:	quickshell
 Requires:	translate-shell
 Requires:	wlogout
+Requires:	bibita-cursor-theme
 
 %description
 uhh questioning the meaning of dotfiles

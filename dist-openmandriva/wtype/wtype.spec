@@ -1,3 +1,5 @@
+%global debug_package %{nil}
+
 Name:		wtype
 Version:	0.4
 Release:	1
