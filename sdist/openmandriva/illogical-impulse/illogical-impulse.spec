@@ -9,7 +9,7 @@ URL:		https://github.com/end-4/dots-hyprland
 License:	GPL-3.0
 
 
-Requires:	cava
+Requires:	lib64cava
 Requires:	pavucontrol-qt
 Requires:	wireplumber
 Requires:	libdbusmenu-gtk3
@@ -33,7 +33,7 @@ Requires:	adw-gtk-theme-git
 Requires:	breeze
 Requires:	breeze-plus
 Requires:	darkly-bin
-Requires:	eza
+Requires:	rust-eza
 Requires:	fish
 Requires:	fontconfig
 Requires:	kitty
@@ -41,7 +41,7 @@ Requires:	matugen
 Requires:	otf-space-grotesk
 Requires:	starship
 Requires:	ttf-gabarito-git
-Requires:	ttf-jetbrains-mono-nerd
+Requires:	fonts-ttf-nerd-jetbrains-mono
 Requires:	ttf-material-symbols-variable-git
 Requires:	ttf-readex-pro
 Requires:	ttf-rubik-vf
@@ -63,7 +63,7 @@ Requires:	bluedevil
 Requires:	gnome-keyring
 Requires:	networkmanager
 Requires:	plasma-nm
-Requires:	polkit-kde-agent
+Requires:	polkit-kde-agent-1
 Requires:	dolphin
 Requires:	systemsettings
 Requires:	xdg-desktop-portal
@@ -114,7 +114,7 @@ Requires:	nm-connection-editor
 Requires:	quickshell
 Requires:	translate-shell
 Requires:	wlogout
-Requires:	bibita-cursor-theme
+Requires:	bibata-cursor-theme
 
 %description
 uhh questioning the meaning of dotfiles

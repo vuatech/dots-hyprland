@@ -3,7 +3,7 @@
 
 function outdate_detect(){
   # Shallow clone prevent latest_commit_timestamp() from working.
-  v git_auto_unshallow
+#   v git_auto_unshallow
 
   local source_path="$1"
   local target_path="$2"
