@@ -9,10 +9,10 @@ URL:		https://github.com/end-4/dots-hyprland
 License:	GPL-3.0
 
 
-Requires:	lib64cava
+Requires:	%{mklibname cava}
 Requires:	pavucontrol-qt
 Requires:	wireplumber
-Requires:	libdbusmenu-gtk3
+Requires:	lib64dbusmenu-gtk3
 Requires:	playerctl
 Requires:	geoclue
 Requires:	brightnessctl
@@ -29,7 +29,7 @@ Requires:	ripgrep
 Requires:	jq
 Requires:	meson
 Requires:	xdg-user-dirs
-Requires:	adw-gtk-theme-git
+Requires:	adwaita-gtk3-theme
 Requires:	breeze
 Requires:	breeze-plus
 Requires:	darkly-bin
@@ -71,10 +71,10 @@ Requires:	xdg-desktop-portal-kde
 Requires:	xdg-desktop-portal-gtk
 Requires:	xdg-desktop-portal-hyprland
 Requires:	clang
-Requires:	uv
+Requires:	%{mklibname uv}
 Requires:	gtk4
-Requires:	libadwaita
-Requires:	libsoup3
+Requires:	lib64adwaita
+Requires:	%{mklibname soup3.0}
 Requires:	libportal-gtk4
 Requires:	gobject-introspection
 Requires:	sassc
@@ -87,16 +87,16 @@ Requires:	wf-recorder
 Requires:	kdialog
 Requires:	qt6-qt5compat
 Requires:	qt-avif-image-plugin-qt6
-Requires:	qt6-qtbase
+Requires:	qt6-qtbase-tools
+Requires:	qt6-qtbase-theme-gtk3
 Requires:	qt6-qtdeclarative
 Requires:	qt6-qtimageformats
 Requires:	qt6-qtmultimedia
 Requires:	qt6-qtpositioning
 Requires:	qt6-qtquicktimeline
 Requires:	qt6-qtsensors
-Requires:	qt6-qtsvg
-Requires:	qt6-qttools
-Requires:	qt6-qttranslations
+Requires:	lib64Qt6Svg
+Requires:	lib64Qt6Translations
 Requires:	qt6-qtvirtualkeyboard
 Requires:	qt6-qtwayland
 Requires:	syntax-highlighting

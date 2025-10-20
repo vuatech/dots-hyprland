@@ -10,6 +10,7 @@ DEPS=(
     illogical-impulse
     starship
     wtype
+    hyprshot
 )
 
 install_packaging_tools() {
