@@ -25,14 +25,14 @@ Requires:	cmake
 Requires:	curl
 Requires:	rsync
 Requires:	wget
-Requires:	ripgrep
+Requires:	rust-ripgrep
 Requires:	jq
 Requires:	meson
 Requires:	xdg-user-dirs
 Requires:	adwaita-gtk3-theme
 Requires:	breeze
 Requires:	breeze-plus
-Requires:	darkly-bin
+Requires:	darkly
 Requires:	rust-eza
 Requires:	fish
 Requires:	fontconfig
@@ -75,14 +75,14 @@ Requires:	%{mklibname uv}
 Requires:	gtk4
 Requires:	lib64adwaita
 Requires:	%{mklibname soup3.0_0}
-Requires:	lib64portal
+Requires:	lib64portal1
 Requires:	gobject-introspection
 Requires:	sassc
 Requires:	hyprshot
 Requires:	slurp
 Requires:	swappy
 Requires:	tesseract
-Requires:	tesseract-data-eng
+Requires:	tesseract-eng
 Requires:	wf-recorder
 Requires:	kdialog
 Requires:	lib64Qt6Core5Compat
@@ -94,7 +94,7 @@ Requires:	qt6-qtimageformats
 Requires:	lib64Qt6Multimedia
 Requires:	lib64Qt6Positioning
 Requires:	qt6-qtquicktimeline
-Requires:	lib64Qt6Sensor
+Requires:	lib64Qt6Sensors
 Requires:	lib64Qt6Svg
 Requires:	qt6-qttranslations
 Requires:	lib64Qt6VirtualKeyboard
@@ -110,7 +110,7 @@ Requires:	hypridle
 Requires:	hyprutils
 Requires:	hyprlock
 Requires:	hyprpicker
-Requires:	nm-connection-editor
+Requires:	networkmanager-applet
 Requires:	quickshell
 Requires:	translate-shell
 Requires:	wlogout

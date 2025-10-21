@@ -7,12 +7,18 @@ REPO_ROOT="$( cd "$SCRIPT_DIR/../.." >/dev/null 2>&1 && pwd )"
 BUILD_BASE="${REPO_ROOT}/sdist/openmandriva"
 
 DEPS=(
-    illogical-impulse
     starship
+    breeze-plus
+    fonts-oft-space-grotesk
+    fonts-ttf-gabarito-git
+    fonts-ttf-material-symbols-variable-git
+    fonts-ttf-readex-pro
+    fonts-ttf-rubik-vf
+    fonts-ttf-twemoji
     wtype
     hyprshot
     darkly
-    libportal
+    illogical-impulse
 )
 
 install_packaging_tools() {
