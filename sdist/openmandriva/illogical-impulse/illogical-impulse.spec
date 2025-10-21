@@ -12,7 +12,7 @@ License:	GPL-3.0
 Requires:	%{mklibname cava}
 Requires:	pavucontrol-qt
 Requires:	wireplumber
-Requires:	lib64dbusmenu-gtk3
+Requires:	lib64dbusmenu-gtk3_4
 Requires:	playerctl
 Requires:	geoclue
 Requires:	brightnessctl
@@ -74,8 +74,8 @@ Requires:	clang
 Requires:	%{mklibname uv}
 Requires:	gtk4
 Requires:	lib64adwaita
-Requires:	%{mklibname soup3.0}
-Requires:	libportal-gtk4
+Requires:	%{mklibname soup3.0_0}
+Requires:	lib64portal
 Requires:	gobject-introspection
 Requires:	sassc
 Requires:	hyprshot
@@ -85,19 +85,19 @@ Requires:	tesseract
 Requires:	tesseract-data-eng
 Requires:	wf-recorder
 Requires:	kdialog
-Requires:	qt6-qt5compat
+Requires:	lib64Qt6Core5Compat
 Requires:	qt-avif-image-plugin-qt6
 Requires:	qt6-qtbase-tools
 Requires:	qt6-qtbase-theme-gtk3
 Requires:	qt6-qtdeclarative
 Requires:	qt6-qtimageformats
-Requires:	qt6-qtmultimedia
-Requires:	qt6-qtpositioning
+Requires:	lib64Qt6Multimedia
+Requires:	lib64Qt6Positioning
 Requires:	qt6-qtquicktimeline
-Requires:	qt6-qtsensors
+Requires:	lib64Qt6Sensor
 Requires:	lib64Qt6Svg
-Requires:	lib64Qt6Translations
-Requires:	qt6-qtvirtualkeyboard
+Requires:	qt6-qttranslations
+Requires:	lib64Qt6VirtualKeyboard
 Requires:	qt6-qtwayland
 Requires:	syntax-highlighting
 Requires:	upower

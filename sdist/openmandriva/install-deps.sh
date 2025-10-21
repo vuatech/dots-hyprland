@@ -11,6 +11,8 @@ DEPS=(
     starship
     wtype
     hyprshot
+    darkly
+    libportal
 )
 
 install_packaging_tools() {
