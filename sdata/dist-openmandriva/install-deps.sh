@@ -19,6 +19,9 @@ DEPS=(
     hyprshot
     darkly
     illogical-impulse
+    yq
+    ttf-roboto-flex
+    songrec
 )
 
 install_packaging_tools() {
